@@ -43,3 +43,21 @@ var swiper = new Swiper(".book-slider", {
       },
     },
   });
+var swiper = new Swiper(".feature-slide", {
+    loop:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 5,
+      },
+    },
+  });
