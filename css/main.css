@@ -443,6 +443,7 @@ padding: 1.2rem;
 padding: 1.5rem;
 
 }
+.reviews .box h3,
 .featured .feature-slide .box .content h3{
 font-size: 2rem;
 color: var(--black);
@@ -468,6 +469,7 @@ text-decoration: line-through;
   text-align: center;
   padding: .5rem 0;
 }
+
 .newsletter form h3{
 font-size: 2.2rem;
 color: aliceblue;
@@ -482,8 +484,37 @@ color: var(--black);
 border-radius: .5rem;
 }
 
+.reviews .box{
+  width: 45rem;
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 2rem 1.2rem;
+}
+.reviews .box img{ 
+height: 9rem;
+width: 9rem;
+border-radius: 50%;
+}
+.reviews .box h3{
+  text-align: center;
+}
+.reviews .box p{
+  font-size: 1.2rem;
+  color: var(--light);
+  padding: .5rem;
+}
+.reviews .box .stars {
+  text-align: center;
+}
+.reviews .box .stars i{
+  font-size: 1.5rem;
+  color: var(--green);
+ 
 
-
+}
 
 
 

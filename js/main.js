@@ -61,3 +61,21 @@ var swiper = new Swiper(".feature-slide", {
       },
     },
   });
+var swiper = new Swiper(".review-slide", {
+    loop:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+    },
+  });
