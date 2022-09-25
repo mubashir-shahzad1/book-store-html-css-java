@@ -515,9 +515,21 @@ border-radius: 50%;
  
 
 }
+footer .wrapper{
+  padding: 2rem 7%;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
 
-
-
+footer .box{
+  width: 24%;
+}
+footer .box a{
+  display: block;
+  color: var(--light);
+  font-size: 1.5rem;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -684,6 +696,10 @@ display: block;
     width: 100%;
     margin: 0;
   }
+  footer .box{
+    margin: .5rem .5rem;
+    flex: 1 1 32rem;}
+    
 }
 
 @media only screen and (max-width: 480px) {
